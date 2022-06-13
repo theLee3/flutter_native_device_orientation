@@ -113,7 +113,6 @@ public class SensorOrientationListener implements IOrientationListener {
     }
 
     public int getDeviceDefaultOrientation() {
-
         WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
 
         Configuration config = context.getResources().getConfiguration();
